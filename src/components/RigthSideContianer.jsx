@@ -4,7 +4,7 @@ import { QuestionCircleOutlined } from '@ant-design/icons';
 
 const App = () => {
   return (
-    <div style={{ position: 'absolute', right: '24px', bottom: '2%' }}>
+    <div style={{ position: 'fixed', right: '24px', bottom: '10px' }}>
       <Row gutter={16}>
         {/* For large screens, show multiple buttons */}
         <Col xs={0} sm={0} md={0} lg={24} xl={24}>
