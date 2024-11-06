@@ -153,7 +153,7 @@ function Navbar() {
                     align="middle"
                     wrap={false}
                     style={{
-                        padding: '10px 5px',
+                        padding: '10px 0px',
                         borderRadius: '48px',
                         backgroundColor: 'rgb(202, 202, 201)',
                         display: 'flex',
