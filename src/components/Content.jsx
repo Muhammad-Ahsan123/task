@@ -74,7 +74,7 @@ function Content() {
                     )}
                 />
 
-                <Row gutter={[16, 16]} justify="start">
+                <Row gutter={[16, 16]} justify="start" className='btn-position'>
                     <Col>
                         <Custombtn title="Save & Continue" bgcolor={'#013347'} textColor={'white'} />
                     </Col>
