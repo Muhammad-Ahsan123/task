@@ -61,7 +61,7 @@ function Navbar() {
                 <Row align="middle" wrap={false}>
                     <Avatar shape="square" size={32} style={{ backgroundColor: '#042F42', minWidth: '32px' }} />
                     <Title level={4} style={{ margin: '0 15px', color: '#2E2E2E', whiteSpace: 'nowrap' }}>NUCES Assessment</Title>
-                    <Ptag title="UX Design Test" borderL="1px solid gray" padding="0 0 0 10px" color="#8E8E8E" minnimumwidth={'92px'} />
+                    <Ptag classname={'borderLeft'} title="UX Design Test" padding="0 0 0 10px" color="#8E8E8E" minnimumwidth={'92px'} />
                 </Row>
             </Col>
 

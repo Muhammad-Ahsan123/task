@@ -98,6 +98,10 @@
   overflow: hidden
 }
 
+.borderLeft {
+  border-left: 1px solid grey
+}
+
 @media (max-width: 991px) {
   .responsive-col {
     margin-right: 0;
@@ -109,7 +113,7 @@
 @media (min-width: 0px) and (max-width: 435px) {
   #questionHeading {
     font-size: 30px !important;
-    padding: 3vw 0;
+    padding: 1.2vw 0;
   }
 }
 
@@ -196,7 +200,16 @@
 
 @media (max-width: 414px) {
   .btn-position {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
+  }
+
+  .customBtn {
+    width: 109px;
+    font-size: 12px;
+  }
+
+  .borderLeft {
+    font-size: 11px;
   }
 }

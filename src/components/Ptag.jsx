@@ -1,11 +1,12 @@
 import React from 'react'
 
-function Ptag({ title, color, fontsize, margin, bgColor, padding, borderR, borderL, display, whitespace, questionno, questiontitle, minnimumwidth, id, border
+function Ptag({ title, color, fontsize, margin, bgColor, padding, borderR, borderL, display, whitespace, questionno, questiontitle, minnimumwidth, id, border , classname
 }) {
     return (
         <>
             <p
                 id={id}
+                className={classname}
                 style={{
                     color,
                     fontSize: fontsize,
