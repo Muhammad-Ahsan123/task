@@ -1,31 +1,29 @@
 import React from 'react';
 import { Row, Col, Badge, Button, Space } from 'antd';
 import { QuestionCircleOutlined } from '@ant-design/icons';
-
+import IconDiv from './IconDiv'
 const App = () => {
   return (
-    <div style={{ position: 'fixed', right: '24px', bottom: '10px' }}>
+    <div className={'rightSideContainer'}>
       <Row gutter={16}>
-        {/* For large screens, show multiple buttons */}
         <Col xs={0} sm={0} md={0} lg={24} xl={24}>
           <Space direction="vertical" size="large">
             <Badge dot>
-              <Button shape="circle" icon={<QuestionCircleOutlined />} />
+              <IconDiv shape="circle" icon={<QuestionCircleOutlined />} />
             </Badge>
             <Badge dot>
-              <Button shape="circle" icon={<QuestionCircleOutlined />} />
+              <IconDiv shape="circle" icon={<QuestionCircleOutlined />} />
             </Badge>
             <Badge dot>
-              <Button shape="circle" icon={<QuestionCircleOutlined />} />
+              <IconDiv shape="circle" icon={<QuestionCircleOutlined />} />
             </Badge>
           </Space>
         </Col>
 
-        {/* For small screens, show only one button */}
         <Col xs={24} sm={24} md={24} lg={0} xl={0}>
           <Space direction="vertical" size="large">
             <Badge dot>
-              <Button shape="circle" icon={<QuestionCircleOutlined />} />
+              <IconDiv shape="circle" icon={<QuestionCircleOutlined />} />
             </Badge>
           </Space>
         </Col>

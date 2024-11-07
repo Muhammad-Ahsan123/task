@@ -1,13 +1,12 @@
 import React from 'react'
 
-function IconDiv() {
+function IconDiv({ shape, icon }) {
     return (
         <>
-            {/* <div style={{ width: '100%' }}> */}
-            <div style={{ width: '40px', height: '40px', borderRadius: '50%', backgroundColor: 'orange', margin: '10px 0' }}></div>
-            {/* </div> */}
+            <div className={'iconDiv'} shape={shape}>
+                {icon}
+            </div>
         </>
     )
 }
-
 export default IconDiv
